@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '@/components/TheWelcome.vue'
+import TheHeader from '@/components/TheHeader.vue'
+import UserDetails from '@/components/User/UserDetails.vue'
+import UserTable from '@/components/User/UserTable.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+	<main>
+		<TheHeader />
+		<UserDetails />
+		<UserTable />
+	</main>
 </template>
